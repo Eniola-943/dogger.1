@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    box-shadow: 0 2px 6px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav .container {
+    display: flex;
+    /* width: 85%; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .container .logo h5 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;
+}
+
+nav .container .logo h5 span {
+    color: #a2c0be;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+nav .container ul li {
+    list-style: none;
+}
+
+nav .container ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+nav .container ul li a:hover {
+    color: #a2c0be;
+    transition: 0.7s ease-in-out;
+}
+
+.section {
+    padding-top: 3%;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.section .care-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .care-flex .care h5 {
+    font-size: 60px;
+    max-width: 400px;
+    line-height: 1;
+    margin-bottom: 5%;
+}
+
+.section .care-flex .care p {
+    color: #999;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.section .care-flex .dog img {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero {
+    margin-top: 5%;
+}
+
+.hero .hero-text {
+    text-align: center;
+}
+
+.hero .hero-text i {
+    color: #a2c0be;
+    font-size: 25px;
+}
+
+.hero .hero-text h5 {
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hero .hero-text p {
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 3%;
+}
+
+.hero .hero-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.hero .hero-flex .hero-text1 {
+    text-align: right;
+    padding-right: 8%;
+}
+
+.hero .hero-flex .hero-text1 h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hero .hero-flex .hero-text1 p {
+    font-size: 15px;
+    max-width: 900px;
+    color: #999;
+    margin-bottom: 3%;
+}
+
+.hero .hero-flex .hero-text1 .btn {
+    padding: 2.5% 5%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a2c0be;
+    color: #fff;
+}
+
+.hero .hero-flex .hero-text1 .btn:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .hero-flex .hero-mage img {
+    width: 100%;
+}
+
+.hero .hero-flex .hero-mage img:hover {
+    border-right: 10px solid #a2c0be;
+    border-bottom: 10px solid #a2c0be;
+    transition: 0.7s ease-out;
+    transform: translateX(0.3);
+}
+
+.hero .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.hero .all .fear-mage img {
+    width: 100%;
+}
+
+.hero .all .fear-mage img:hover {
+    border-right: 10px solid #a2c0be;
+    border-bottom: 10px solid #a2c0be;
+    transition: 0.7s ease-in-out;
+
+}
+
+.hero .all .see {
+    text-align: left;
+    padding-left: 8%;
+}
+
+.hero .all .see h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hero .all .see p {
+    font-size: 15px;
+    max-width: 900px;
+    color: #999;
+    margin-bottom: 3%;
+}
+
+.hero .all .see .btn1 {
+    padding: 2.5% 5%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a2c0be;
+    color: #fff;
+}
+
+.hero .all .see .btn1:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.hero .me .hero2-mage img {
+    width: 100%;
+}
+
+.hero .me .hero2-mage img:hover {
+    border-right: 10px solid #a2c0be;
+    border-bottom: 10px solid #a2c0be;
+    transition: 0.7s ease-in-out;
+
+}
+
+.hero .me .us-text1 {
+    text-align: right;
+    padding-right: 8%;
+}
+
+.hero .me .us-text1 h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hero .me .us-text1 p {
+    font-size: 15px;
+    max-width: 900px;
+    color: #999;
+    margin-bottom: 3%;
+}
+
+.hero .me .us-text1 .btn2 {
+    padding: 2.5% 5%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a2c0be;
+    color: #fff;
+}
+
+.hero me .us-text1 .btn2:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .me .us-text1 .btn2:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .offline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .offline .off i {
+    color: #a2c0be;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+.hero .offline .off h5 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.hero .offline .off p {
+    font-size: 15px;
+    max-width: 550px;
+    color: #999;
+    line-height: 2;
+    margin-bottom: 3%;
+}
+
+
+.hero .offline .off p i {
+    margin-right: 3%;
+    color: #a2c0be;
+}
+
+.hero .offline .tea-mage img {
+    width: 70%;
+    float: right;
+}
+
+.section2 {
+    margin: 6% 0;
+    background-color: #a2c0be;
+}
+
+.section2 .trainer {
+    padding-top: 6%;
+    text-align: center;
+}
+
+.section2 .trainer i {
+    font-size: 25px;
+    color: #a2c0be;
+}
+
+.section2 .trainer h5 {
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.section2 .trainer p {
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 3%;
+}
+
+.section2 .image-flex {
+    display: flex;
+
+}
+
+.section2 .image-flex .mage1 img {
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+.section2 .image-flex .mage2 img {
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+.section2 .image-flex .mage3 img {
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+.section2 .image-flex .mage1 img:hover,
+.section2 .image-flex .mage2 img:hover,
+.section2 .image-flex .mage3 img:hover {
+    border-right: 10px solid rgb(57, 57, 57);
+    border-bottom: 10px solid rgb(57, 57, 57);
+    transition: 0.7s ease-in-out;
+}
+
+.section2 .image-flex .mage1 h5,
+.mage2 h5,
+.mage3 h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.section2 .image-flex .mage1 p,
+.mage2 p,
+.mage3 p {
+    color: #999;
+    font-size: 13px;
+    max-width: 270px;
+    margin-bottom: 2%;
+}
+
+.section2 .image-flex .icon-flex {
+    margin-bottom: 6%;
+}
+
+.section2 .image-flex .mage1 i:hover,
+.mage2 i:hover,
+.mage3 i:hover {
+    transform: translateY(5px);
+}
+
+.life {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.life h5 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.all .basic {
+    padding: 6%;
+    text-align: center;
+    width: 35%;
+    color: #fff;
+    background-color: #a2c0be;
+}
+
+.all .basic h5 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.all .basic span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.all .basic span small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.all .basic ul {
+    font-size: 15px;
+    text-align: left;
+}
+
+.all .basic ul li {
+    list-style: square;
+    line-height: 2.9;
+}
+
+.all .basic .btn1 {
+    padding: 4.5% 5%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(191, 77%, 45%);
+    color: #fff;
+}
+
+.all .premium {
+    padding: 6%;
+    text-align: center;
+    color: #fff;
+    width: 35%;
+    background-color: #000;
+}
+
+.all .premium h5 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.all .premium span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.all .premium span small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.all .premium ul {
+    font-size: 15px;
+    text-align: left;
+}
+
+.all .premium ul li {
+    list-style: square;
+    line-height: 2.9;
+}
+
+.all .professional {
+    padding: 6%;
+    text-align: center;
+    color: #fff;
+    width: 35%;
+    background-color: #a2c0be;
+}
+
+.all .professional h5 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.all .professional span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.all .professional span small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.all .professional ul {
+    font-size: 15px;
+    text-align: left;
+}
+
+.all .professional ul li {
+    list-style: square;
+    line-height: 2.9;
+}
+
+.all .professional .btn1 {
+    padding: 4.5% 5%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0b9bae;
+    color: #fff;
+}
+
+
+.all .premium .btn1 {
+    padding: 4.5% 5%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a2c0be;
+    color: #fff;
+}
+
+.all .premium .btn1:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.all .premium .btn1:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.pee {
+    text-align: center;
+}
+
+.pee h5 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+}
+
+.pee i {
+    color: #999;
+
+}
+
+.pee p {
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 3%;
+    width: 390px;
+    margin-left: 350px;
+    margin-bottom: 2%;
+}
+
+.moon {
+    display: flex;
+    /* margin-bottom: 8%; */
+    justify-content: space-between;
+}
+
+.moon h5 {
+    font-size: larger;
+    margin-right: 40px;
+    padding-right: 50%;
+    font-weight: 500;
+    /* margin-bottom: 8%; */
+}
+
+.moon i {
+    line-height: 2.9;
+    /* margin-bottom: 8%; */
+}
+
+.moon .big-mage img {
+    width: 90%;
+    float: right;
+    margin-bottom: 8%;
+}
+
+.app {
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.app h5 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.peek {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.peek .steam {
+    height: auto;
+    padding: 5px;
+    background-color: rgb(39, 80, 80);
+    margin-bottom: 4%;
+}
+
+.peek .steam p {
+    font-size: 15px;
+}
+
+.peek .imagee img {
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+    transform: translateX(2s ease-in-out blue)
+}
+
+.game {
+    justify-content: center;
+    margin-bottom: 8%;
+    align-items: center;
+}
+
+.game h5 {
+    font-size: 3pc;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.sign-mage .sign-mage1 {
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+.sign-mage .sign-mage1 img:hover {
+    transform: scale(1.2);
+    transition: 0.8s ease-in-out;
+}
+
+.ceo {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.ceo h5 {
+    font-size: 3pc;
+    margin-bottom: 0.3%;
+    font-weight: 400;
+}
+
+.ceo p {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    color: #7b9694;
+    margin-bottom: 5%;
+    width: 26pc;
+    margin-left: 30%;
+}
+
+.fix {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    margin-bottom: 3%;
+
+}
+
+.fix h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+
+.fix p {
+    margin-bottom: 3%;
+    color: #7b9694;
+}
+
+.fix h5:hover {
+    color: #a2c0be;
+    transition: 0.9s;
+}
+
+.fix img {
+    height: 90px;
+    margin-bottom: 2%;
+}
+
+.fix a {
+    color: #a2c0be;
+    text-decoration: none;
+}
+
+.seek {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.seek h5 {
+    font-size: 30px;
+    margin-bottom: 0.3%;
+    margin-top: 10%;
+    font-weight: 400;
+}
+
+.seek p {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    color: #7b9694;
+    margin-bottom: 5%;
+    width: 26pc;
+    margin-left: 30%;
+}
+
+.pray {
+    display: flex;
+    gap: 90px;
+    margin: 10%;
+    align-content: center;
+    margin-bottom: 3%;
+}
+
+.pray .prey1 {
+    display: flex;
+    align-items: center;
+}
+
+.pray .prey1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prey1 h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 55%;
+}
+
+.prey1 p {
+    display: flex;
+    justify-content: center;
+    color: #7b9694;
+    font-size: 16px;
+    max-width: 400px;
+    margin-bottom: 3%;
+    width: 180px;
+}
+
+.prey1 img {
+    height: 90px;
+    margin-right: 190px;
+    margin-bottom: 2%;
+}
