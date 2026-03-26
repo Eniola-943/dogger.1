@@ -1,1140 +1,1227 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 nav {
-    background-color: #ffffff;
-    width: 100%;
-    height: 10vh;
-    position: fixed;
-    box-shadow: 0 2px 6px;
+	background-color: #ffffff;
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	box-shadow: 0 2px 6px;
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
+	width: 85%;
+	margin: 0 auto;
 }
 
 nav .container {
-    display: flex;
-    /* width: 85%; */
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	/* width: 85%; */
+	justify-content: space-between;
+	align-items: center;
 
 }
 
 nav .container .logo h5 {
-    font-size: 28px;
-    font-weight: 500;
-    color: #000;
+	font-size: 28px;
+	font-weight: 500;
+	color: #000;
 }
 
 nav .container .logo h5 span {
-    color: #a2c0be;
+	color: #a2c0be;
 }
 
 nav .container ul {
-    display: flex;
-    gap: 18px;
-    align-items: center;
+	display: flex;
+	gap: 18px;
+	align-items: center;
 }
 
 nav .container ul li {
-    list-style: none;
+	list-style: none;
 }
 
 nav .container ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 15px;
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
 }
 
 nav .container ul li a:hover {
-    color: #a2c0be;
-    transition: 0.7s ease-in-out;
+	color: #a2c0be;
+	transition: 0.7s ease-in-out;
 }
 
 .section {
-    padding-top: 3%;
-    width: 100%;
-    background-color: #f5f5f5;
+	padding-top: 3%;
+	width: 100%;
+	background-color: #f5f5f5;
 }
 
 .section .care-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .section .care-flex .care h5 {
-    font-size: 60px;
-    max-width: 400px;
-    line-height: 1;
-    margin-bottom: 5%;
+	font-size: 60px;
+	max-width: 400px;
+	line-height: 1;
+	margin-bottom: 5%;
 }
 
 .section .care-flex .care p {
-    color: #999;
-    font-size: 18px;
-    font-weight: lighter;
+	color: #999;
+	font-size: 18px;
+	font-weight: lighter;
 }
 
 .section .care-flex .dog img {
-    width: 100%;
-    height: 100vh;
+	width: 100%;
+	height: 100vh;
 }
 
 .hero {
-    margin-top: 5%;
+	margin-top: 5%;
 }
 
 .hero .hero-text {
-    text-align: center;
+	text-align: center;
 }
 
 .hero .hero-text i {
-    color: #a2c0be;
-    font-size: 25px;
+	color: #a2c0be;
+	font-size: 25px;
 }
 
 .hero .hero-text h5 {
-    font-size: 28px;
-    font-weight: 800;
-    text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .hero .hero-text p {
-    font-size: 15px;
-    color: #999;
-    margin-bottom: 3%;
+	font-size: 15px;
+	color: #999;
+	margin-bottom: 3%;
 }
 
 .hero .hero-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5%;
 }
 
 .hero .hero-flex .hero-text1 {
-    text-align: right;
-    padding-right: 8%;
+	text-align: right;
+	padding-right: 8%;
 }
 
 .hero .hero-flex .hero-text1 h5 {
-    font-size: 25px;
-    font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 .hero .hero-flex .hero-text1 p {
-    font-size: 15px;
-    max-width: 900px;
-    color: #999;
-    margin-bottom: 3%;
+	font-size: 15px;
+	max-width: 900px;
+	color: #999;
+	margin-bottom: 3%;
 }
 
 .hero .hero-flex .hero-text1 .btn {
-    padding: 2.5% 5%;
-    font-size: 15px;
-    border-radius: 20px;
-    border: none;
-    background-color: #a2c0be;
-    color: #fff;
+	padding: 2.5% 5%;
+	font-size: 15px;
+	border-radius: 20px;
+	border: none;
+	background-color: #a2c0be;
+	color: #fff;
 }
 
 .hero .hero-flex .hero-text1 .btn:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 .hero .hero-flex .hero-mage img {
-    width: 100%;
+	width: 100%;
 }
 
 .hero .hero-flex .hero-mage img:hover {
-    border-right: 10px solid #a2c0be;
-    border-bottom: 10px solid #a2c0be;
-    transition: 0.7s ease-out;
-    transform: translateX(0.3);
+	border-right: 10px solid #a2c0be;
+	border-bottom: 10px solid #a2c0be;
+	transition: 0.7s ease-out;
+	transform: translateX(0.3);
 }
 
 .hero .all {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5%;
 }
 
 .hero .all .fear-mage img {
-    width: 100%;
+	width: 100%;
 }
 
 .hero .all .fear-mage img:hover {
-    border-right: 10px solid #a2c0be;
-    border-bottom: 10px solid #a2c0be;
-    transition: 0.7s ease-in-out;
+	border-right: 10px solid #a2c0be;
+	border-bottom: 10px solid #a2c0be;
+	transition: 0.7s ease-in-out;
 
 }
 
 .hero .all .see {
-    text-align: left;
-    padding-left: 8%;
+	text-align: left;
+	padding-left: 8%;
 }
 
 .hero .all .see h5 {
-    font-size: 25px;
-    font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 .hero .all .see p {
-    font-size: 15px;
-    max-width: 900px;
-    color: #999;
-    margin-bottom: 3%;
+	font-size: 15px;
+	max-width: 900px;
+	color: #999;
+	margin-bottom: 3%;
 }
 
 .hero .all .see .btn1 {
-    padding: 2.5% 5%;
-    font-size: 15px;
-    border-radius: 20px;
-    border: none;
-    background-color: #a2c0be;
-    color: #fff;
+	padding: 2.5% 5%;
+	font-size: 15px;
+	border-radius: 20px;
+	border: none;
+	background-color: #a2c0be;
+	color: #fff;
 }
 
 .hero .all .see .btn1:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 .hero .me {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5%;
 }
 
 .hero .me .hero2-mage img {
-    width: 100%;
+	width: 100%;
 }
 
 .hero .me .hero2-mage img:hover {
-    border-right: 10px solid #a2c0be;
-    border-bottom: 10px solid #a2c0be;
-    transition: 0.7s ease-in-out;
+	border-right: 10px solid #a2c0be;
+	border-bottom: 10px solid #a2c0be;
+	transition: 0.7s ease-in-out;
 
 }
 
 .hero .me .us-text1 {
-    text-align: right;
-    padding-right: 8%;
+	text-align: right;
+	padding-right: 8%;
 }
 
 .hero .me .us-text1 h5 {
-    font-size: 25px;
-    font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 .hero .me .us-text1 p {
-    font-size: 15px;
-    max-width: 900px;
-    color: #999;
-    margin-bottom: 3%;
+	font-size: 15px;
+	max-width: 900px;
+	color: #999;
+	margin-bottom: 3%;
 }
 
 .hero .me .us-text1 .btn2 {
-    padding: 2.5% 5%;
-    font-size: 15px;
-    border-radius: 20px;
-    border: none;
-    background-color: #a2c0be;
-    color: #fff;
+	padding: 2.5% 5%;
+	font-size: 15px;
+	border-radius: 20px;
+	border: none;
+	background-color: #a2c0be;
+	color: #fff;
 }
 
 .hero me .us-text1 .btn2:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 .hero .me .us-text1 .btn2:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 .hero .offline {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .hero .offline .off i {
-    color: #a2c0be;
-    font-size: 25px;
-    margin-bottom: 2%;
+	color: #a2c0be;
+	font-size: 25px;
+	margin-bottom: 2%;
 }
 
 .hero .offline .off h5 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #000;
-    text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
 }
 
 .hero .offline .off p {
-    font-size: 15px;
-    max-width: 550px;
-    color: #999;
-    line-height: 2;
-    margin-bottom: 3%;
+	font-size: 15px;
+	max-width: 550px;
+	color: #999;
+	line-height: 2;
+	margin-bottom: 3%;
 }
 
 
 .hero .offline .off p i {
-    margin-right: 3%;
-    color: #a2c0be;
+	margin-right: 3%;
+	color: #a2c0be;
 }
 
 .hero .offline .tea-mage img {
-    width: 70%;
-    float: right;
+	width: 70%;
+	float: right;
 }
 
 .section2 {
-    margin: 6% 0;
-    background-color: #a2c0be;
+	margin: 6% 0;
+	background-color: #a2c0be;
 }
 
 .section2 .trainer {
-    padding-top: 6%;
-    text-align: center;
+	padding-top: 6%;
+	text-align: center;
 }
 
 .section2 .trainer i {
-    font-size: 25px;
-    color: #a2c0be;
+	font-size: 25px;
+	color: #a2c0be;
 }
 
 .section2 .trainer h5 {
-    font-size: 28px;
-    font-weight: 800;
-    text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .section2 .trainer p {
-    font-size: 15px;
-    color: #999;
-    margin-bottom: 3%;
+	font-size: 15px;
+	color: #999;
+	margin-bottom: 3%;
 }
 
 .section2 .image-flex {
-    display: flex;
+	display: flex;
 
 }
 
 .section2 .image-flex .mage1 img {
-    width: 90%;
-    margin-bottom: 4%;
+	width: 90%;
+	margin-bottom: 4%;
 }
 
 .section2 .image-flex .mage2 img {
-    width: 90%;
-    margin-bottom: 4%;
+	width: 90%;
+	margin-bottom: 4%;
 }
 
 .section2 .image-flex .mage3 img {
-    width: 90%;
-    margin-bottom: 4%;
+	width: 90%;
+	margin-bottom: 4%;
 }
 
 .section2 .image-flex .mage1 img:hover,
 .section2 .image-flex .mage2 img:hover,
 .section2 .image-flex .mage3 img:hover {
-    border-right: 10px solid rgb(57, 57, 57);
-    border-bottom: 10px solid rgb(57, 57, 57);
-    transition: 0.7s ease-in-out;
+	border-right: 10px solid rgb(57, 57, 57);
+	border-bottom: 10px solid rgb(57, 57, 57);
+	transition: 0.7s ease-in-out;
 }
 
 .section2 .image-flex .mage1 h5,
 .mage2 h5,
 .mage3 h5 {
-    color: #000;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 3%;
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 3%;
 }
 
 .section2 .image-flex .mage1 p,
 .mage2 p,
 .mage3 p {
-    color: #999;
-    font-size: 13px;
-    max-width: 270px;
-    margin-bottom: 2%;
+	color: #999;
+	font-size: 13px;
+	max-width: 270px;
+	margin-bottom: 2%;
 }
 
 .section2 .image-flex .icon-flex {
-    margin-bottom: 6%;
+	margin-bottom: 6%;
 }
 
 .section2 .image-flex .mage1 i:hover,
 .mage2 i:hover,
 .mage3 i:hover {
-    transform: translateY(5px);
+	transform: translateY(5px);
 }
 
 .life {
-    text-align: center;
-    margin-bottom: 3%;
+	text-align: center;
+	margin-bottom: 3%;
 }
 
 .life h5 {
-    font-size: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .all {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10%;
 }
 
 .all .basic {
-    padding: 6%;
-    text-align: center;
-    color: #fff;
-    width: 35%;
-    color: #fff;
-    background-color: #a2c0be;
+	padding: 6%;
+	text-align: center;
+	color: #fff;
+	width: 35%;
+	color: #fff;
+	background-color: #a2c0be;
 }
 
 .all .basic h5 {
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
 }
 
 .all .basic span {
-    font-size: 25px;
-    font-weight: 400;
+	font-size: 25px;
+	font-weight: 400;
 }
 
 .all .basic span small {
-    font-size: 16px;
-    font-weight: 400;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .all .basic ul {
-    font-size: 15px;
-    text-align: left;
+	font-size: 15px;
+	text-align: left;
 }
 
 .all .basic ul li {
-    list-style: square;
-    line-height: 2.9;
+	list-style: square;
+	line-height: 2.9;
 }
 
 .all .basic .btn1 {
-    padding: 4.5% 5%;
-    font-size: 15px;
-    border-radius: 20px;
-    border: none;
-    background-color: hsl(191, 77%, 45%);
-    color: #fff;
+	padding: 4.5% 5%;
+	font-size: 15px;
+	border-radius: 20px;
+	border: none;
+	background-color: hsl(191, 77%, 45%);
+	color: #fff;
 }
 
 .all .btn1 {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .all .basic .btn1:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 
 .all .premium {
-    padding: 6%;
-    text-align: center;
-    color: #fff;
-    width: 35%;
-    background-color: #000;
+	padding: 6%;
+	text-align: center;
+	color: #fff;
+	width: 35%;
+	background-color: #000;
 }
 
 .all .premium h5 {
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
 }
 
 .all .premium span {
-    font-size: 25px;
-    font-weight: 400;
+	font-size: 25px;
+	font-weight: 400;
 }
 
 .all .premium span small {
-    font-size: 16px;
-    font-weight: 400;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .all .premium ul {
-    font-size: 15px;
-    text-align: left;
+	font-size: 15px;
+	text-align: left;
 }
 
 .all .premium ul li {
-    list-style: square;
-    line-height: 2.9;
+	list-style: square;
+	line-height: 2.9;
 }
 
 .all .professional {
-    padding: 6%;
-    text-align: center;
-    color: #fff;
-    width: 35%;
-    background-color: #a2c0be;
+	padding: 6%;
+	text-align: center;
+	color: #fff;
+	width: 35%;
+	background-color: #a2c0be;
 }
 
 .all .professional h5 {
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .all .professional span {
-    font-size: 25px;
-    font-weight: 400;
+	font-size: 25px;
+	font-weight: 400;
 }
 
 .all .professional span small {
-    font-size: 16px;
-    font-weight: 400;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .all .professional ul {
-    font-size: 15px;
-    text-align: left;
+	font-size: 15px;
+	text-align: left;
 }
 
 .all .professional ul li {
-    list-style: square;
-    line-height: 2.9;
+	list-style: square;
+	line-height: 2.9;
 }
 
 .all .professional .btn1 {
-    padding: 4.5% 5%;
-    font-size: 15px;
-    border-radius: 20px;
-    border: none;
-    background-color: #0b9bae;
-    color: #fff;
+	padding: 4.5% 5%;
+	font-size: 15px;
+	border-radius: 20px;
+	border: none;
+	background-color: #0b9bae;
+	color: #fff;
 }
 
 .all .professional .btn1:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 
 .all .premium .btn1 {
-    padding: 4.5% 5%;
-    font-size: 15px;
-    border-radius: 20px;
-    border: none;
-    background-color: #a2c0be;
-    color: #fff;
+	padding: 4.5% 5%;
+	font-size: 15px;
+	border-radius: 20px;
+	border: none;
+	background-color: #a2c0be;
+	color: #fff;
 }
 
 .all .premium .btn1:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 .all .premium .btn1:hover {
-    background-color: #000;
-    transition: 0.3s ease-in-out;
+	background-color: #000;
+	transition: 0.3s ease-in-out;
 }
 
 .pee {
-    text-align: center;
+	text-align: center;
 }
 
 .pee h5 {
-    font-size: 25px;
-    font-weight: 900;
-    margin-bottom: 1%;
-    text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 900;
+	margin-bottom: 1%;
+	text-transform: uppercase;
 }
 
 .pee i {
-    color: #999;
+	color: #999;
 
 }
 
 .pee p {
-    font-size: 15px;
-    color: #999;
-    margin-bottom: 3%;
-    width: 390px;
-    margin-left: 350px;
-    margin-bottom: 2%;
+	font-size: 15px;
+	color: #999;
+	margin-bottom: 3%;
+	width: 390px;
+	margin-left: 350px;
+	margin-bottom: 2%;
 }
 
 .moon {
-    display: flex;
-    /* margin-bottom: 8%; */
-    justify-content: space-between;
+	display: flex;
+	/* margin-bottom: 8%; */
+	justify-content: space-between;
 }
 
 .moon h5 {
-    font-size: larger;
-    margin-right: 40px;
-    padding-right: 50%;
-    font-weight: 500;
-    /* margin-bottom: 8%; */
+	font-size: larger;
+	margin-right: 40px;
+	padding-right: 50%;
+	font-weight: 500;
+	/* margin-bottom: 8%; */
 }
 
 .moon i {
-    line-height: 2.9;
-    /* margin-bottom: 8%; */
+	line-height: 2.9;
+	/* margin-bottom: 8%; */
 }
 
 .moon .big-mage img {
-    width: 90%;
-    float: right;
-    margin-bottom: 8%;
+	width: 90%;
+	float: right;
+	margin-bottom: 8%;
 }
 
 .app {
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 1%;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 1%;
 }
 
 .app h5 {
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .peek {
-    display: flex;
-    gap: 40px;
-    text-align: center;
-    margin-bottom: 4%;
+	display: flex;
+	gap: 40px;
+	text-align: center;
+	margin-bottom: 4%;
 }
 
 .peek .steam {
-    height: auto;
-    padding: 5px;
-    background-color: rgb(39, 80, 80);
-    margin-bottom: 4%;
+	height: auto;
+	padding: 5px;
+	background-color: rgb(39, 80, 80);
+	margin-bottom: 4%;
 }
 
 .peek .steam p {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 .peek .imagee img {
-    width: 100px;
-    border-radius: 100px;
-    height: 100px;
-    transform: translateX(2s ease-in-out blue)
+	width: 100px;
+	border-radius: 100px;
+	height: 100px;
+	transform: translateX(2s ease-in-out blue)
 }
 
 .game {
-    justify-content: center;
-    margin-bottom: 8%;
-    align-items: center;
+	justify-content: center;
+	margin-bottom: 8%;
+	align-items: center;
 }
 
 .game h5 {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 2%;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 2%;
 }
 
 .sign-mage .sign-mage1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .sign-mage .sign-mage1 img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .sign-mage .sign-mage1 img:hover {
-    transform: scale(1.2);
-    transition: 0.8s ease-in-out;
-    cursor: zoom-in;
+	transform: scale(1.2);
+	transition: 0.8s ease-in-out;
+	cursor: zoom-in;
 }
 
 .ceo {
-    text-align: center;
-    justify-content: space-between;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .ceo h5 {
-    font-size: 3pc;
-    margin-bottom: 0.3%;
-    font-weight: 400;
+	font-size: 3pc;
+	margin-bottom: 0.3%;
+	font-weight: 400;
 }
 
 .ceo p {
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    color: #7b9694;
-    margin-bottom: 5%;
-    width: 26pc;
-    margin-left: 30%;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	color: #7b9694;
+	margin-bottom: 5%;
+	width: 26pc;
+	margin-left: 30%;
 }
 
 .fix {
-    display: flex;
-    gap: 20px;
-    align-content: center;
-    margin-bottom: 3%;
+	display: flex;
+	gap: 20px;
+	align-content: center;
+	margin-bottom: 3%;
 
 }
 
 .fix h5 {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 4%;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 4%;
 }
 
 .fix p {
-    margin-bottom: 3%;
-    color: #7b9694;
+	margin-bottom: 3%;
+	color: #7b9694;
 }
 
 .fix h5:hover {
-    color: #7b9694;
-    transition: 0.9s;
+	color: #7b9694;
+	transition: 0.9s;
 }
 
 .fix img {
-    height: 90px;
-    margin-bottom: 2%;
+	height: 90px;
+	margin-bottom: 2%;
 }
 
 .fix a {
-    color: #a2c0be;
-    text-decoration: none;
+	color: #a2c0be;
+	text-decoration: none;
 }
 
 .seek {
-    text-align: center;
-    justify-content: space-between;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .seek h5 {
-    font-size: 30px;
-    margin-bottom: 0.3%;
-    margin-top: 10%;
-    font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 0.3%;
+	margin-top: 10%;
+	font-weight: 400;
 }
 
 .seek p {
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    color: #7b9694;
-    margin-bottom: 5%;
-    width: 26pc;
-    margin-left: 30%;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	color: #7b9694;
+	margin-bottom: 5%;
+	width: 26pc;
+	margin-left: 30%;
 }
 
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 55px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 55px;
 }
 
 .services-grid .service-textmage {
-    text-align: left;
-    max-width: 600px;
-    margin-bottom: 25%;
+	text-align: left;
+	max-width: 600px;
+	margin-bottom: 25%;
 }
 
 .services-grid .service-textmage img {
-    width: 50%;
-    margin-bottom: 20px;
+	width: 50%;
+	margin-bottom: 20px;
 }
 
 .services-grid .service-textmage h5 {
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: 10px;
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 10px;
 }
 
 .services-grid .service-textmage p {
-    font-size: 15px;
-    color: #7b9694;
+	font-size: 15px;
+	color: #7b9694;
 }
 
 .eve h5 {
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: 9%;
-    padding-left: 45px;
-    padding-top: 60px;
+	font-size: 25px;
+	color: #7b9694;
+	font-weight: 400;
+	margin-bottom: 9%;
+	padding-left: 45px;
+	padding-top: 60px;
 }
 
 .eve {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 6px;
-    background-color: #a2c0be;
-    margin-bottom: 3%;
+	display: flex;
+	padding-left: 6px;
+	background-color: #a2c0be;
 }
 
 .eve form {
-    display: grid;
-    max-width: 10%;
-    gap: 10px;
-    padding-left: 60px;
+
+	gap: 10px;
+	padding-left: 60px;
 }
 
-.eve form input {
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 5px;
+.eve form input,
+textarea {
+	padding: 15px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 3%;
+}
+
+.eve form textarea {
+	height: 150px;
 }
 
 .eve form button {
-    padding: 10px;
-    border-radius: 30px;
-    background-color: #343a40;
-    color: #fff;
-    margin-bottom: 10%;
-    cursor: pointer;
+	padding: 17px 50px;
+	border-radius: 30px;
+	background-color: #343a40;
+	color: #fff;
+	margin-bottom: 10%;
+	cursor: pointer;
 }
 
 .eve form button:hover {
-    background-color: #7b9694;
-    transition: 0.3s ease-in-out;
+	background-color: #23292e;
+	transition: 0.3s ease-in-out;
 }
 
 .eve label {
-    color: #7b9694;
+	color: #7b9694;
 
 }
 
 .eve .come {
-    margin-left: 70px;
-    padding-top: 60px;
+	margin-left: 70px;
+	padding-top: 60px;
+}
+
+.eve .eve-flex form .tab {
+	display: flex;
+	gap: 20px;
 }
 
 .come {
-    background-color: #343a40;
-    padding-left: 20px;
-    max-width: 100%;
+	background-color: #343a40;
+	padding-left: 20px;
+	width: 100%;
 }
 
 .come .new {
-    padding-left: 100px;
-    margin-bottom: 3%;
+	padding-left: 100px;
 }
 
 .come h5 {
-    padding-left: 10px;
+	padding-left: 10px;
+	color: #fff;
+	font-size: 55px;
 }
 
 .come p {
-    line-height: 90px;
-    color: #7b9694;
+	line-height: 90px;
+	color: #7b9694;
 
 }
 
 .come i {
-    padding-right: 10px;
+	padding-right: 10px;
+}
+
+.end {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+	align-content: center;
+	background-color: #23292e;
+	height: 500px;
+	width: 100%;
+}
+
+.end h5 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 25px;
+	padding-bottom: 20px;
+}
+
+.end .annual {
+	max-width: 32%;
+	line-height: 30px;
+}
+
+.end .annual h5 {
+	padding-left: 65px;
+}
+
+.end .annual p {
+	margin-left: 60px;
+	color: #737373;
+}
+
+.mp3 ul {
+	list-style: none;
+	line-height: 40px;
+	color: #737373;
+	cursor: pointer;
+}
+
+.mp3 ul li:hover {
+	color: #ffffff;
+}
+
+.pics .dee {
+	color: #737373;
+}
+
+.stop input {
+	padding: 20px;
+	border: 2px solid #333f4b;
+	border-radius: 3px;
+	width: 45%;
+	margin-bottom: 3%;
+	background-color: #23292e;
+
+}
+
+.p {
+	display: flex;
+	gap: 0;
+}
+
+.p input,
+.p button {
+	margin: 0;
+}
+
+button {
+	padding: 22px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	color: #000000;
+	margin-bottom: 10%;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {
-    .section {
-        padding-top: 15%;
-    }
+	.section {
+		padding-top: 15%;
+	}
 
-    .section .care-flex {
-        flex-direction: column;
-    }
+	.section .care-flex {
+		flex-direction: column;
+	}
 
-    .section.care-flex .care {
-        text-align: center;
-    }
+	.section.care-flex .care {
+		text-align: center;
+	}
 
-    .section .care-flex .care h5 {
-        font-size: 50px;
-    }
+	.section .care-flex .care h5 {
+		font-size: 50px;
+	}
 
-    .section .care-flex .dog img {
-        width: auto;
-    }
+	.section .care-flex .dog img {
+		width: auto;
+	}
 
-    .hero {
-        margin-top: 15%;
-    }
+	.hero {
+		margin-top: 15%;
+	}
 
-    .hero .hero-text {
-        text-align: center;
-    }
+	.hero .hero-text {
+		text-align: center;
+	}
 
-    .hero .hero-text p {
-        margin-bottom: 3%;
-    }
+	.hero .hero-text p {
+		margin-bottom: 3%;
+	}
 
-    .hero .hero-flex {
-        flex-direction: column;
-    }
+	.hero .hero-flex {
+		flex-direction: column;
+	}
 
-    .hero .hero-flex .hero-text1 {
-        text-align: center;
-        padding-right: 0;
-    }
+	.hero .hero-flex .hero-text1 {
+		text-align: center;
+		padding-right: 0;
+	}
 
-    .hero .hero-flex .hero-text1 h5 {
-        text-align: left;
-    }
+	.hero .hero-flex .hero-text1 h5 {
+		text-align: left;
+	}
 
-    .hero .hero-flex .hero-text1 p {
-        text-align: left;
-        margin-bottom: 3%;
-    }
+	.hero .hero-flex .hero-text1 p {
+		text-align: left;
+		margin-bottom: 3%;
+	}
 
-    .hero .hero-flex .hero-mage img {
-        margin-top: 3%;
-        width: 100%;
-    }
+	.hero .hero-flex .hero-mage img {
+		margin-top: 3%;
+		width: 100%;
+	}
 
-    .hero .all {
-        flex-direction: column;
-    }
+	.hero .all {
+		flex-direction: column;
+	}
 
-    .hero .all .fear-mage img {
-        width: 100%;
-        margin-bottom: 3%;
-    }
+	.hero .all .fear-mage img {
+		width: 100%;
+		margin-bottom: 3%;
+	}
 
-    .hero .all .see {
-        text-align: left;
-        padding-left: 0;
-    }
+	.hero .all .see {
+		text-align: left;
+		padding-left: 0;
+	}
 
-    .hero .me {
-        flex-direction: column;
-    }
+	.hero .me {
+		flex-direction: column;
+	}
 
-    .hero .me .hero2-mage img {
-        width: 100%;
-        margin-bottom: 3%;
-    }
+	.hero .me .hero2-mage img {
+		width: 100%;
+		margin-bottom: 3%;
+	}
 
-    .hero .me .us-text1 h5 {
-        text-align: left;
-    }
+	.hero .me .us-text1 h5 {
+		text-align: left;
+	}
 
-    .hero .me .us-text1 p {
-        text-align: left;
-        margin-bottom: 3%;
-    }
+	.hero .me .us-text1 p {
+		text-align: left;
+		margin-bottom: 3%;
+	}
 
-    .hero .me .us-text1 .btn2 {
-        margin-right: 70%;
-        margin-bottom: 3%;
-    }
+	.hero .me .us-text1 .btn2 {
+		margin-right: 70%;
+		margin-bottom: 3%;
+	}
 
-    .hero .offline {
-        flex-direction: column;
-    }
+	.hero .offline {
+		flex-direction: column;
+	}
 
-    .hero .offline .off h5 {
-        text-align: left;
-    }
+	.hero .offline .off h5 {
+		text-align: left;
+	}
 
-    .hero .offline .off i {
-        align-items: center;
-    }
+	.hero .offline .off i {
+		align-items: center;
+	}
 
-    .hero .offline .tea-mage img {
-        width: 100%;
-        height: auto;
-        margin-top: 3%;
-    }
+	.hero .offline .tea-mage img {
+		width: 100%;
+		height: auto;
+		margin-top: 3%;
+	}
 
-    .section2 p {
-        text-align: center;
-    }
+	.section2 p {
+		text-align: center;
+	}
 
-    .section2 .image-flex {
-        flex-direction: column;
-    }
+	.section2 .image-flex {
+		flex-direction: column;
+	}
 
-    .section2 .image-flex .mage1 h5,
-    .mage2 h5,
-    .mage3 h5 {
-        text-align: left;
-    }
+	.section2 .image-flex .mage1 h5,
+	.mage2 h5,
+	.mage3 h5 {
+		text-align: left;
+	}
 
-    .section2 .image-flex .mage1 p,
-    .mage2 p,
-    .mage3 p {
-        text-align: left;
-        max-width: none;
-        padding-right: 4%;
-    }
+	.section2 .image-flex .mage1 p,
+	.mage2 p,
+	.mage3 p {
+		text-align: left;
+		max-width: none;
+		padding-right: 4%;
+	}
 
-    .life {
-        margin-top: 15%;
-    }
+	.life {
+		margin-top: 15%;
+	}
 
-    .life h5 {
-        text-align: center;
-    }
+	.life h5 {
+		text-align: center;
+	}
 
-    .all {
-        flex-direction: column;
-    }
+	.all {
+		flex-direction: column;
+	}
 
-    .all .basic {
-        padding: 7%;
-        width: 90%;
-        margin-bottom: 4%;
-    }
+	.all .basic {
+		padding: 7%;
+		width: 90%;
+		margin-bottom: 4%;
+	}
 
-    .all .premium {
-        padding: 4%;
-        width: 90%;
-        margin-bottom: 4%;
-    }
+	.all .premium {
+		padding: 4%;
+		width: 90%;
+		margin-bottom: 4%;
+	}
 
-    .all .professional {
-        padding: 4%;
-        width: 90%;
-    }
+	.all .professional {
+		padding: 4%;
+		width: 90%;
+	}
 
-    .pee {
-        margin-top: 15%;
-    }
+	.pee {
+		margin-top: 15%;
+	}
 
-    .pee p {
-        margin-left: 5px;
-        text-align: center;
-        width: 100%;
-        text-align: center;
-        max-width: none;
-        padding-right: 4%;
-        margin-bottom: 5%;
-    }
+	.pee p {
+		margin-left: 5px;
+		text-align: center;
+		width: 100%;
+		text-align: center;
+		max-width: none;
+		padding-right: 4%;
+		margin-bottom: 5%;
+	}
 
-    .moon {
-        flex-direction: column;
-    }
+	.moon {
+		flex-direction: column;
+	}
 
-    .moon .big-mage img {
-        width: 100%;
-        height: auto;
-        margin-top: 3%;
-    }
+	.moon .big-mage img {
+		width: 100%;
+		height: auto;
+		margin-top: 3%;
+	}
 
-    .app {
-        text-align: center;
-    }
+	.app {
+		text-align: center;
+	}
 
-    .peek {
-        flex-direction: column;
-        align-items: center;
-    }
+	.peek {
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .peek .steam {
-        text-align: center;
-        width: 200px;
-        margin-bottom: 2%;
-    }
+	.peek .steam {
+		text-align: center;
+		width: 200px;
+		margin-bottom: 2%;
+	}
 
-    .peek .steam p {
-        margin-left: 1%;
-        padding-left: 5%;
-        text-align: center;
-        margin: 4px;
-        margin: none;
+	.peek .steam p {
+		margin-left: 1%;
+		padding-left: 5%;
+		text-align: center;
+		margin: 4px;
+		margin: none;
 
-    }
+	}
 
-    .peek .imagee img {
-        width: 100px;
-        height: 100px;
-        margin-bottom: 4%;
+	.peek .imagee img {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 4%;
 
-    }
+	}
 
-    .game {
-        flex-direction: column;
-    }
+	.game {
+		flex-direction: column;
+	}
 
-    .game h5 {
-        text-align: center;
-        flex-direction: column;
-        text-align: center;
+	.game h5 {
+		text-align: center;
+		flex-direction: column;
+		text-align: center;
 
 
-    }
+	}
 
-    .sign-mage .sign-mage1 {
-        display: grid;
-        grid-template-columns: repeat(3, 1.5fr);
-    }
+	.sign-mage .sign-mage1 {
+		display: grid;
+		grid-template-columns: repeat(3, 1.5fr);
+	}
 
-    .ceo p {
-        margin-left: 750px;
-        text-align: center;
-        width: 100%;
-        padding-right: 20%;
-    }
+	.ceo p {
+		margin-left: 750px;
+		text-align: center;
+		width: 100%;
+		padding-right: 20%;
+	}
 
-    body p {
-        font-size: 15px;
-    }
+	body p {
+		font-size: 15px;
+	}
 
-    .fix {
-        flex-direction: column;
-        align-items: center;
-    }
+	.fix {
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .fix h5 {
-        line-height: normal;
-        font-size: 18px;
-        font-weight: 400;
-        text-align: left;
-    }
+	.fix h5 {
+		line-height: normal;
+		font-size: 18px;
+		font-weight: 400;
+		text-align: left;
+	}
 
-    .fix p {
-        text-align: left;
-    }
+	.fix p {
+		text-align: left;
+	}
 
-    .fix img {
-        height: 300px;
-        margin-bottom: 4%;
-    }
+	.fix img {
+		height: 300px;
+		margin-bottom: 4%;
+	}
 
-    .seek p {
-        margin-left: 5px;
-        text-align: center;
-        width: 100%;
-        text-align: center;
-        max-width: none;
-        padding-right: 4%;
-        margin-bottom: 5%;
-    }
+	.seek p {
+		margin-left: 5px;
+		text-align: center;
+		width: 100%;
+		text-align: center;
+		max-width: none;
+		padding-right: 4%;
+		margin-bottom: 5%;
+	}
 
 }
