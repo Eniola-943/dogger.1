@@ -870,6 +870,7 @@ textarea {
 
 .come i {
 	padding-right: 10px;
+	height: 13px;
 }
 
 .end {
@@ -948,7 +949,25 @@ button {
 	cursor: pointer;
 }
 
-@media (max-width: 768px) {
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.nav-links {
+	display: flex;
+	gap: 1rem;
+}
+
+.hamburger {
+	display: none;
+	/* Hide by default */
+}
+
+
+@media only screen and (max-width: 768px) {
 	.section {
 		padding-top: 15%;
 	}
@@ -956,6 +975,13 @@ button {
 	.section .care-flex {
 		flex-direction: column;
 	}
+
+	.nav-links {
+		display: none;
+		flex-direction: column;
+		gap: 0;
+	}
+
 
 	.section.care-flex .care {
 		text-align: center;
@@ -1223,5 +1249,4 @@ button {
 		padding-right: 4%;
 		margin-bottom: 5%;
 	}
-
 }
